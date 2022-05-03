@@ -1,0 +1,29 @@
+name: method1
+
+on:
+  push:
+    branches:
+      - main
+    paths-ignore: 
+      - '**.md'
+  pull_request:
+    branches:
+      - main
+    paths-ignore: 
+      - '**.md'
+
+env:
+  DEVELOPER_DIR: /Applications/Xcode_13.3.1.app/Contents/Developer
+  
+jobs:
+  test:
+    runs-on:
+      - macos-12
+
+    steps:
+    - name: Check out
+      uses: actions/checkout@v2
+
+    - name: Test
+      run: |
+        xcodebuild -project AllTests/AllTests.xcodeproj -scheme HackySoftHardTest test -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 13'
