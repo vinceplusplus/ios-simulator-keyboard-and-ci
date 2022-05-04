@@ -2,16 +2,16 @@
 
 <p>
   <a href="https://github.com/vinceplusplus/ios-simulator-keyboard-and-ci/actions?query=workflow%3Amethod1+event%3Apush">
-    <img src="https://github.com/vinceplusplus/ios-simulator-keyboard-and-ci/workflows/method1/badge.svg?event=push">
+    <img src="https://github.com/vinceplusplus/ios-simulator-keyboard-and-ci/workflows/method1/badge.svg?event=push" />
   </a>
   <a href="https://github.com/vinceplusplus/ios-simulator-keyboard-and-ci/actions?query=workflow%3Amethod2+event%3Apush">
-    <img src="https://github.com/vinceplusplus/ios-simulator-keyboard-and-ci/workflows/method2/badge.svg?event=push">
+    <img src="https://github.com/vinceplusplus/ios-simulator-keyboard-and-ci/workflows/method2/badge.svg?event=push" />
   </a>
   <a href="https://github.com/vinceplusplus/ios-simulator-keyboard-and-ci/actions?query=workflow%3Amethod3+event%3Apush">
-    <img src="https://github.com/vinceplusplus/ios-simulator-keyboard-and-ci/workflows/method3/badge.svg?event=push">
+    <img src="https://github.com/vinceplusplus/ios-simulator-keyboard-and-ci/workflows/method3/badge.svg?event=push" />
   </a>
   <a href="https://github.com/vinceplusplus/ios-simulator-keyboard-and-ci/actions?query=workflow%3Amethod4+event%3Apush">
-    <img src="https://github.com/vinceplusplus/ios-simulator-keyboard-and-ci/workflows/method4/badge.svg?event=push">
+    <img src="https://github.com/vinceplusplus/ios-simulator-keyboard-and-ci/workflows/method4/badge.svg?event=push" />
   </a>
 </p>
 
@@ -40,11 +40,11 @@ app.keys["c"].tap()
 
 The first one is through a synthesized hardware keyboard and requires `Connect Hardware Keyboard`
 
-<img alt="connect hardware keyboard" src="docs/images/connect-hardware-keyboard.png" width="50%" />
+<img alt="connect hardware keyboard" src="docs/images/connect-hardware-keyboard.png" width="550" />
 
 The second one requires the software keyboard to be already on the screen
 
-<img alt="software keyboard" src="docs/images/software-keyboard.png" width="50%" />
+<img alt="software keyboard" src="docs/images/software-keyboard.png" width="366" />
 
 If we want to mimic the real world usage, the second one should be preferred
 
